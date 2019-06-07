@@ -1,5 +1,5 @@
 body {
-    width: 375px;
+    width: 100%;
     margin: 0 auto;
     background-color: #6dcdb1;
 }
@@ -24,7 +24,6 @@ header ul li a {
 /*main*/
 
 main h2 {
-    background-color: white;
     color: red;
     font-family: Helvetica, sans-serif;
 }
@@ -36,7 +35,7 @@ main {
     margin-bottom: 20px;
 }
 
-.campos {
+.items {
     list-style-type: none;
     padding-left: 0;
 }
@@ -74,3 +73,93 @@ label {
     justify-items: center;
     justify-content: space-around;
 }
+
+
+/*media queries para ipad*/
+
+@media only screen and (min-width: 768px) {
+
+    label {
+        margin-top: 20px;
+    }
+
+    .nombre-apellido {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .genero-pais {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .email-confirmar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pass-confirmar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .campo {
+        width: 45%;
+    }
+
+    .año {
+        width: 45%;
+        position: relative;
+        right: 20px;
+    }
+
+    .date {
+        position: relative;
+        left: 20px;
+    }
+
+    .dia {
+        position: relative;
+        left: 20px;
+    }
+
+    .mes {
+        position: relative;
+        right: 15px;
+    }
+
+    .terminos {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .botones {
+        margin-top: 20px;
+    }
+
+    .boton-registrarme {
+        width: 200px;
+    }
+
+    .boton-cancelar {
+        width: 200px;
+    }
+    
+}
+
+
+/*media queries para desktop*/
+
+@media only screen and (min-width: 1024px){
+    body {
+        width: 80%;
+        background-color: white;
+
+    }
+
+    main h2{
+        color: #6dcdb1;
+    }
+}
+
+
