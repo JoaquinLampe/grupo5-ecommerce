@@ -1,0 +1,76 @@
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #6dcdb1;
+}
+
+/*header a razon de modelo*/
+header ul {
+    width: 100%;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header ul li a {
+    font-family: Helvetica, sans-serif;
+    font-size: 65%;
+    text-decoration: none;
+    color: black;
+}
+
+/*main*/
+
+main h2 {
+    background-color: white;
+    color: red;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.campos {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+label {
+    margin-top: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.fecha-nac {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dia {
+    width: 22%;
+}
+
+.mes {
+    width: 22%;
+}
+
+.año {
+    width: 50%;
+}
+
+.terminos {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botones {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
