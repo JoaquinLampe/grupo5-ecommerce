@@ -54,3 +54,35 @@ header ul li a {
   color: black;
   text-decoration: none;
 }
+
+section.vip-products article {
+  width: 100%;
+}
+
+section.vip-products .photo {
+  width: 100%;
+}
+
+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+#footer {
+  background-color: rgb(162, 186, 162);
+}
+
+footer ul li {
+  list-style: none;
+}
+
+.uldelfooter {
+  margin-left: 10px;
+  padding-inline-start: 10px;
+}
+
+
+.piedepagina {
+  margin-left: 1px;
+}
