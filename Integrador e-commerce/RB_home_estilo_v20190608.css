@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("leaves.png");
+}
+
+img.logo {
+  display: block;
+  border-radius: 50%;
+  border: gray 1px solid;
+  margin-top: 35px;
+  margin: 0 auto;
+  width: 145px;
+  height: 140px;
+}
+
+section.banner {
+  display: none;
+}
+
+header span.fa {
+  background-color: rgb(162, 186, 162);
+  color: white;
+  font-size: 34px;
+  padding: 10px;
+  margin-top: 12px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+header ul {
+  list-style: none;
+  padding-left: 0;
+  display: none;
+
+}
+
+header nav:hover ul {
+  display: block;
+}
+
+header ul li {
+  background-color: rgb(162, 186, 162);
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+section.vip-products article {
+  width: 100%;
+}
+
+section.vip-products .photo {
+  width: 100%;
+}
+
+.fotoquenoresponde {
+  width: 100%;
+}
+
+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+#footer {
+  background-color: rgb(162, 186, 162);
+}
+
+footer ul li {
+  list-style: none;
+}
+
+.uldelfooter {
+  margin-left: 10px;
+  padding-inline-start: 10px;
+}
+
+
+.piedepagina {
+  margin-left: 1px;
+}
