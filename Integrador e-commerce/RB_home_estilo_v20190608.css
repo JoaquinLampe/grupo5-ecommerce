@@ -90,3 +90,58 @@ footer ul li {
 .piedepagina {
   margin-left: 1px;
 }
+
+@media only screen and (min-width: 768px) {
+
+div.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.toggle-nav {
+  display: none;
+}
+
+header ul {
+  display: block;
+  overflow: hidden;
+}
+
+header ul li {
+  float: left;
+  width: 12.5%;
+  margin-right: 5%;
+}
+
+header ul li:last-child {
+  margin-right: 0;
+}
+
+section.banner {
+  display: block;
+  margin-bottom: 15px;
+}
+
+section.banner img {
+  width: 100%;
+}
+
+section.vip-products {
+  overflow: hidden;
+}
+
+section.vip-products article.product {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+
+}
+
+section.vip-products article.product:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+
+
+}
